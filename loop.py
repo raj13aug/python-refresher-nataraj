@@ -11,3 +11,10 @@ while True:
         print("You were off by 1.")
     else:
         print("Sorry, it's wrong!")
+
+        
+grades = [35, 86, 96, 37, 89, 66]
+
+total = sum(grades)
+amount = len(grades)
+print(total / amount)
