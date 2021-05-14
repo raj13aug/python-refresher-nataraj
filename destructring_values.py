@@ -23,3 +23,5 @@ head, *tail = [1,2,3,4,5] # first value in here will become the head and then th
 
 print(head)
 print(tail)
+
+#https://blog.teclado.com/destructuring-in-python/
