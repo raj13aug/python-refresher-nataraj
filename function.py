@@ -14,3 +14,20 @@ def user_age_in_seconds():
 user_age_in_seconds()
 
 print("Goodbye")
+
+##############################
+
+def say_hello(name, surname):
+    print(f"hello, {name} {surname}")
+	
+say_hello("Bob", "smith")
+
+
+def divide(dividend, divisor):
+    if divisor != 0:
+	    print(dividend / divisor)
+	else:
+	    print("You fool")
+
+
+divide(dividend=15, divisor=0)
